@@ -1,0 +1,35 @@
+ <!doctype html>
+ <html lang="en">
+   <head>
+     <title>Scoreboard</title>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+   <body>
+     <div class="Scoreboard">
+        <div class="Team">
+            <h2>Team A</h2>
+            <p id="teamAScore">0</p>
+            <div class="btn-container">
+                <button onclick="decrementScore(teamA)">-</button>
+                <button onclick="incrementScore(teamA)">+</button>
+                
+            </div>
+        </div>
+     </div>
+
+        <div class="Team">
+            <h2>Team B</h2>
+            <p id="teamBScore">0</p>
+            <div class="btn-container">
+                <button onclick="decrementScore(teamB)">-</button>
+                <button onclick="incrementScore(teamB)">+</button>
+                
+            </div>
+        </div>
+   </body>
+ </html>
