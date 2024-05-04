@@ -6,7 +6,7 @@
 }
 body {
     height: 100vh;
-    background: linear-gradient(#000000 50%, #07e387 50%);
+    background: linear-gradient(#000000 50%, #00FFFF 50%);
 }
 .Scoreboard {
 background-color: #1e1e21;
@@ -32,15 +32,19 @@ button {
 }
 #reset-btn {
     background-color: transparent;
-    border: 3px solid #07e387;
-    color: #07e387;
+    border: 3px solid white;
+    color: white;
     height: 5em;
     width: 5em;
     margin: auto;
     border-radius: 00.5em;
 }
 .Team h2 {
-    color: #07e387;
+    color: #D2042D;
+
+.Team h3 {
+    color: #ffffff;
+}
 }
 .Team p {
     color: #ffffff;
@@ -52,7 +56,7 @@ button {
     justify-content: space-between;
 }
 .Team button {
-    background-color: #07e387;
+    background-color: white;
     border: none;
     outline: none;
     padding: 0.3em 0.7em;
