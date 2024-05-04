@@ -40,12 +40,9 @@ button {
     border-radius: 00.5em;
 }
 .Team h2 {
-    color: #D2042D;
+    color: whitesmoke;
+}
 
-.Team h3 {
-    color: #ffffff;
-}
-}
 .Team p {
     color: #ffffff;
     font-size: 3.75em;
